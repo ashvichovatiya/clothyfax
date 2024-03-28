@@ -1,0 +1,520 @@
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+
+}
+
+
+.container {
+    max-width: 1364px;
+}
+.nav-item a{
+    color: black;
+}
+.header-background {
+    background-color: mintcream;;
+}
+
+.annoucment-section p{
+    font-size: 19px;
+    margin-bottom: 0;
+    padding: 6px 0;
+}
+.annoucment-section{
+    background: darkgray;
+}
+
+ul.navbar {
+    justify-content: flex-start;
+}
+
+li.nav-item {
+    list-style: none;
+}
+
+.serch-item {
+    display: flex;
+    justify-content: end;
+}
+
+.fisrtimg{
+    width: 100% ;
+}
+
+.logo-grid{
+    width: 67%;
+}
+
+.look1 {
+   width: 100%;
+}
+/* 
+.row.grid-thumb {
+    padding-top: 30px;
+} */
+
+.carousel-caption-d-none-d-md-block h5{
+    font-size: 20px;
+}
+.row.product-slider {
+    margin: 0;
+}
+
+.row.collaction-item {
+    padding: 50px 0;
+}
+
+.collaction-explorar h2 {
+    font-size: 34px;
+font-family: 'Helvetica Neue';
+
+    color: black;
+}
+
+.product-grid-text p{
+    color: black;
+    text-decoration: none;
+}
+
+.coll-item1 {
+    padding: 30px 0;
+}
+
+.coll-ware{
+    width: 100%;
+    padding: 11px 0;
+}
+
+.coll-text {
+    bottom: 21px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.coll-text h2{
+font-size: 20px;
+color: white;
+}
+    
+
+.collaction-grid-img {
+    position: relative;
+}
+
+.collection-grid {
+    position: relative;
+}
+
+.coll-gr {
+    position: absolute;
+    bottom: 28px;
+    width: 100%;
+    text-align: center;
+}
+
+.coll-gr h2{
+    font-size: 24px;
+    color: white;
+}
+
+.mens-ware {
+    padding: 30px 0;
+}
+.mens-ware h2{
+    font-family: 'Helvetica Neue';
+}
+
+
+
+.men-grid-text p{
+    text-decoration: none;
+    color: black;
+}
+
+.men-shervani-grid-text p{
+    text-decoration: none;
+    color: black;
+}
+
+.mens-collection-shervani-grid a{
+    text-decoration: none;
+}
+
+.mens-collection-grid a{
+    text-decoration: none;
+}
+
+.women-collection-grid a{
+    text-decoration: none;
+}
+
+.mens-grid{
+    padding: 30px 0;
+}
+
+
+.serch-item li{
+    padding: 0 15px;
+    list-style: none;
+}
+
+
+.like a{
+    color: black;
+}
+
+.men2{
+    width: 100%;
+}
+
+
+.mens-text{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 6px 10px #888888;
+}
+
+.mens-text a{
+    text-decoration: none;
+    color: black;
+}
+.mens-text h2{
+    font-family: 'Helvetica Neue';
+    font-size: 40px;
+}
+
+.mens-text span{
+    font-size: 20px;
+}
+
+.item-discribe a{
+text-decoration: none;
+color: black;
+}
+
+.item-discribe {
+    padding: 40px 0px;
+}
+
+.discription-2 {
+    padding: 20px 0;
+}
+
+.item-discribe2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.item-discribe2 a{
+    text-decoration: none;
+    color: black;
+    }
+    
+    .item-discribe2 {
+        padding: 40px 0px;
+    }
+    
+    .discription-3 {
+        padding: 20px 0;
+    }
+    
+    .item-discribe3 a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .item-discribe3 a{
+        text-decoration: none;
+        color: black;
+        }
+        
+        .item-discribe3 {
+            padding: 40px 0px;
+        }
+        
+        .discription-4 {
+            padding: 20px 0;
+        }
+        
+        .item-discribe4 a{
+            text-decoration: none;
+            color: black;
+        }
+
+.footer-ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-ul li{
+    list-style: none;
+    
+    padding: 10px;
+}
+
+.row.footer-setting {
+    background: lightgray;
+    padding: 40px 0;
+}
+
+.footer-ul h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.symbole-set {
+    display: flex;
+    gap: 10px;
+}
+
+
+.symbole-set {
+    padding: 15px 0;
+}
+
+.payment-grid {
+    padding: 20px 0;
+}
+
+.we-accept h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pay-soul {
+    display: flex;
+    gap: 10px;
+}
+
+.clothes-logo{
+    width: 100%;
+}
+
+.text-section button{
+    display: none;
+}
+
+div#navbarSupportedContent {
+    display: block;
+}
+
+.wish-list{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.women-collection-grid{
+    position: relative;
+}
+
+
+.mens-collection-shervani-grid{
+    position: relative;
+}
+
+.mens-collection-grid{
+    position: relative;
+}
+
+.kurta-coll{
+    position: relative;
+}
+
+
+a.btn.btn-light {
+    background: linear-gradient(45deg, black, transparent);
+    color: white;
+    font-size: 16px;
+}
+
+.shop-btn {
+    position: absolute;
+    bottom: 22px;
+    right: 39px;
+    width: 98px;
+}
+
+
+.menu-text {
+    margin-top: 24px;
+}
+
+.menu-text a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*********************************sareee.css*******************************/
+
+
+.new-arr span{
+    font-family:'Avenir LT Std';
+    font-weight: bold;
+}
+
+.catagories span {
+    font-weight: bold;
+}
+
+.cat-item li a{
+    color: black;
+    text-decoration: none;
+}
+.cat-item li{
+    list-style: none;
+}
+
+.occasion span{
+    font-weight: bold;
+}
+
+.dress-style li{
+    list-style: none;
+}
+
+.dress-style li a{
+    color: black;
+    text-decoration: none;
+}
+
+.cat-item{
+    border-left: 1px solid;
+}
+
+.dress-style{
+    border-left:1px solid;
+}
+
+.dress-matirial{
+    border-left:1px solid;
+}
+
+.dress-matirial li a{
+    color: black;
+    text-decoration: none;
+}
+
+.dress-matirial li{
+    list-style: none;
+}
+
+.fabrics span{
+    font-weight: bold;
+}
+.occasion span{
+    font-weight: bold;
+}
+ 
+.product-media{
+    width: 100%;
+    border-radius:15px 15px 0 0 ;
+    border: 1px #e5e5e5 solid;
+    border-bottom:none ;
+}
+
+.product-wrap{
+    position: relative;
+}
+
+.product-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.product-price {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.product-info{
+    border: 1px #e5e5e5 solid;
+    border-radius: 0 0 15px 15px;
+    padding: 0 10px;
+    border-top: none;
+}
+
+.sr1-col-pad{
+    padding: 15px 0;
+}
+
+
+.page-item a{
+    color: black;
+}
+
+
+@media (max-width:1600px){
+    .container {
+        max-width: 1364px;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    .container {
+        max-width: 1260px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 1199px) {
+
+
+}
+
+@media (max-width: 991px) {
+
+
+   
+    
+
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media screen and (max-width:768px) {
+}
+
+
+@media screen and (max-width:767px) {
+}
+
+@media screen and (max-width:640px) {
+
+}
+
+
+@media screen and (max-width:475px) {
+
+}
+
+@media screen and (max-width:375px) {
+
+
+}
+

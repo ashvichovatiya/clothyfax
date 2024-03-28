@@ -1,0 +1,7 @@
+(function (w, d, s, o, f, js, fjs) {
+w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+if (d.getElementById(o)) return;
+js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+}(window, document, "script", "Gumstack", "https://w.gumstack.com/v1/widget.js"));
+Gumstack("init", { token:"e349dde0973b3876505c9f62", store: window.location.hostname});

@@ -1,0 +1,85 @@
+
+function postEvent(event_name, data) {
+  try {
+    console.log(event_name,data);
+    let eventData = {
+      name: event_name,
+      data: data
+    };
+    let _iframe = document.querySelector("iframe#gswidget");
+    if (!_iframe) return;
+    _iframe.contentWindow.postMessage(eventData, '*')
+  } catch (error) {
+    console.log("gs:error",error);
+  }
+}
+
+function addToCart(data) {
+  fetch('/cart/add.js', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
+    .then(response => response.json())
+    .then(data => {
+      postEvent("gs:cart-data-added", data)
+    });
+}
+
+function getCart() {
+  fetch('/cart.js', {
+    method: 'GET',
+  })
+    .then(response => response.json())
+    .then(data => {
+      postEvent("gs:cart-data", data)
+    });
+}
+
+function updateCart() {
+  fetch('/cart/update.js', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
+    .then(response => response.json())
+    .then(data => {
+      postEvent("gs:cart-data-updated", data)
+    });
+}
+
+function removeCartItem(data){
+  fetch('/cart/change.js', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
+    .then(response => response.json())
+    .then(data => {
+      postEvent("gs:cart-data-removed", data)
+    });
+}
+
+window.addEventListener("message", (event) => {
+  const permittedEvents = ['gs:add-cart', 'gs:get-cart', 'gs:update-cart', 'gs:remove-cart-data']
+  const eventData = event.data;
+  if (!permittedEvents.includes(eventData.name)) return
+  if (!eventData.hasOwnProperty('name')) return
+
+  if (eventData.name == 'gs:add-cart') {
+    addToCart(eventData.data);
+  } else if (eventData.name == 'gs:get-cart') {
+    getCart()
+  } else if (eventData.name == 'gs:update-cart') {
+    updateCart(eventData.data)
+  } else if (eventData.name == 'gs:remove-cart-data') {
+    removeCartItem(eventData.data)
+  }
+
+}, false);
